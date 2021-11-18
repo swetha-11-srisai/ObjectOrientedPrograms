@@ -15,7 +15,9 @@ namespace ObjectOrientedProgram
                 switch (choice)
                 {
                     case 1:
-                        id.DisplayData(@"E:\ObjectOrientedPrograms\ObjectOrientedProgram\ObjectOrientedProgram\File\Inventory.json");
+                        id.Data(@"E:\ObjectOrientedPrograms\ObjectOrientedProgram\ObjectOrientedProgram\File\Inventory.json");
+                        string state = Convert.ToString(Console.ReadLine());
+                        id.Display(state);
                         break;
                     case 2:
                         flag = false;
