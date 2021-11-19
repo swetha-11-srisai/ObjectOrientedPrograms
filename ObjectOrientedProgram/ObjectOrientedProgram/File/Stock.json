@@ -1,0 +1,15 @@
+
+  [
+    {
+      "StockName": "HONDA",
+      "NumberOfShares": 28,
+      "SharePrice": 2000
+    },
+    {
+      "StockName": "MAHINDRA",
+      "NumberOfShares": 48,
+      "SharePrice": 1600
+    }
+   
+  ]
+
